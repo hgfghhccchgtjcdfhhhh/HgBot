@@ -1,0 +1,8 @@
+// A list of features the bot has
+const features = [
+ "IP Ban Command",
+ "Anti-VPN feature",
+ "Server Owner-Only IP Ban Command",
+ "Perma Normal Server Ban"
+];
+export {features};
