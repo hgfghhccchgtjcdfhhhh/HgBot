@@ -1,10 +1,6 @@
 name: HgBot
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
+on: {}
 
 jobs:
   ip_ban:
