@@ -2,10 +2,9 @@ name: HgBot
 
 on:
   schedule:
-    # Run every 69 seconds (every 0 minute, 1 seconds)
-    - cron: '*/69 * * * * *'
+      - cron: '/69 * * * * *'
 jobs:
-  check\_server:
+  check_server:
     name: Check server status
     runs-on: ubuntu-latest
 
@@ -13,4 +12,3 @@ jobs:
       - name: Check server status
         run: |
           ping opera.com
-          
