@@ -10,5 +10,4 @@ jobs:
     steps:
       - name: Check server status
         run: |
-          ping opera.com
-``
+          ping www.google.com
