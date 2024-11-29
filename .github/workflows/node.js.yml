@@ -3,10 +3,11 @@ name: HgBot
 on: {}
 
 jobs:
-  ip_ban:
-    name: IP Ban
+  check_server:
+    name: Check server status
     runs-on: ubuntu-latest
 
-  perm_ban:
-    name: Permanent Ban
-    runs-on: ubuntu-latest
+    steps:
+      - name: Check server status
+        run: |
+          ping opera.com
