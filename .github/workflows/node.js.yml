@@ -2,7 +2,7 @@ name: HgBot
 
 on:
   schedule:
-    - cron: '69 * * * * *'
+    - cron: '0 /69 * * * *'
 jobs:
   check_server:
     name: Check server status
