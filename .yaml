@@ -2,11 +2,11 @@ name: HgBot
 on:
   schedule:
     - cron: '0 */120 * * *' # run every 120 minutes
-
-jobs: check_server:
-name: Check server status
-runs-on: ubuntu-latest
-steps:
- - name: Check server status
- run: |
- ping www.google.com
+jobs:
+  check_server:
+    name: Check server status
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check server status
+      run: |
+        ping www.google.com
