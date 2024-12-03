@@ -2,8 +2,7 @@ name: HgBot
 on:
   schedule:
     - cron: '0 */120 * * *' # run every 120 minutes
-jobs:
-  check_server:
+jobs:check_server:
     name: Check server status
     runs-on: ubuntu-latest
     steps:
