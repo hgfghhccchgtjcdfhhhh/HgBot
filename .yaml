@@ -10,4 +10,19 @@ jobs:
     - name: Check server status
       run: |
         ping www.google.com
-        
+        # Original file with indentation problem
+key:
+    - value
+        - more_content
+
+# Fixed file with proper indentation
+key:
+    - value
+        - more_content
+
+# Original file with missing or incorrect key-value pair
+key:
+
+# Fixed file with correct key-value pair
+key:
+    value
