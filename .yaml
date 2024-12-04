@@ -4,3 +4,5 @@ async function check_server() {
   const result = await exec(`ping opera.com`);
   console.log(`Server status: ${result.status}`);
 }
+
+// Github make the Code work or your gay
